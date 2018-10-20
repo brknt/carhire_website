@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+.navbar {
+background:#fff!important;
+}
+
+.navbar .navbar-brand {
+	font-family: 'Roboto Condensed', sans-serif;
+	color:#444C50;
+	font-size:30px;
+}
+
+.navbar ul.navbar-nav li.nav-item .nav-link {
+font-family: 'Roboto', sans-serif;
+font-size:18px;
+color:#444C50;
+padding:0px 33px;
+}
+.carousel-caption{
+	top:15%!important;
+	
+	
+}
+.carousel-caption h5{
+	font-size:70px;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	text-shadow:1px 1px 15px #000;
+	letter-spacing:5px;
+}
+.carousel-caption p{
+	font-size:25px;
+	color:#fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-shadow:1px 1px 15px #000;
+}
+.jumbotron {
+background-color:#444C50;
+text-align:center;
+margin-top:-4%;;
+
+
+}
+.jumbotron p {
+	font-size:20px;
+	letter-spacing:2px;
+	color:#fff;
+	
+	
+	}
+	
+.jumbotron h1 {
+	font-size:50px;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	
+	}
