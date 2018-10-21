@@ -8,14 +8,15 @@ background:#fff!important;
 .navbar .navbar-brand {
 	font-family: 'Roboto Condensed', sans-serif;
 	color:#444C50;
-	font-size:30px;
+	font-size:25px;
+	font-weight:600;
 }
 
 .navbar ul.navbar-nav li.nav-item .nav-link {
 font-family: 'Roboto', sans-serif;
 font-size:18px;
 color:#444C50;
-padding:0px 33px;
+padding:0px 41px;
 }
 .carousel-caption{
 	top:15%!important;
@@ -23,18 +24,54 @@ padding:0px 33px;
 	
 }
 .carousel-caption h5{
+	font-family: 'Roboto', sans-serif;
 	font-size:70px;
 	color:#fff;
-	font-family: 'Roboto', sans-serif;
-	text-shadow:1px 1px 15px #000;
-	letter-spacing:5px;
+    text-shadow:1px 1px 15px #000;
+     letter-spacing:5px;
 }
 .carousel-caption p{
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size:25px;
 	color:#fff;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-weight:300!important;
+	max-width:788px;
+	margin:0 auto;
+	
 	text-shadow:1px 1px 15px #000;
 }
+section#content1{
+margin-top:25px;
+}
+
+section#content1 .colon1{
+background:#e8e8e8;
+min-height:259px;
+margin-top:25px;
+}
+section#content1 .colon1 img{
+margin:0 auto;
+padding:27px 0;
+max-width:100px;
+display:block;
+}
+
+section#content1 .colon1 h2{
+font-family: 'Roboto Condensed', sans-serif;
+font-size:20px;
+font-weight:350;
+text-align:center;
+}
+section#content1 .colon1 p{
+font-family: 'Roboto Condensed', sans-serif;
+font-size:15px;
+font-weight:300;
+text-align:center;
+}
+
+
+
+
 .jumbotron {
 background-color:#444C50;
 text-align:center;
@@ -56,3 +93,6 @@ margin-top:-4%;;
 	font-family: 'Roboto', sans-serif;
 	
 	}
+
+	
+	
