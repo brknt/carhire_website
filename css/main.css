@@ -2,20 +2,25 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 .navbar {
-background:#fff!important;
+background:#00204B!important;
+	
+  
 }
 
 .navbar .navbar-brand {
 	font-family: 'Roboto Condensed', sans-serif;
-	color:#444C50;
+	color:#FFB41D;
 	font-size:25px;
-	font-weight:600;
+	
+
+    
+     
 }
 
 .navbar ul.navbar-nav li.nav-item .nav-link {
 font-family: 'Roboto', sans-serif;
 font-size:18px;
-color:#444C50;
+color:#fff;
 padding:0px 41px;
 }
 .carousel-caption{
@@ -69,13 +74,17 @@ font-weight:300;
 text-align:center;
 }
 
-
+section#formfield {
+	background:#00204B;
+	min-height:524px;
+	margin-top:100px;
+}
 
 
 .jumbotron {
 background-color:#444C50;
 text-align:center;
-margin-top:-4%;;
+max-height:230px;
 
 
 }
@@ -91,6 +100,11 @@ margin-top:-4%;;
 	font-size:50px;
 	color:#fff;
 	font-family: 'Roboto', sans-serif;
+	
+	}
+	.jumbotron img{
+	
+	
 	
 	}
 
