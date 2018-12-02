@@ -1,7 +1,8 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html >
   <head>
-    <title>.::SHC</title>
+    <title>.::CSE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -10,31 +11,55 @@
 	<script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+	<script language="javascript" src="http://ic.sitekodlari.com/yukaricik1.js"></script>
    </head>
    <body>
-   
-   <!-NAVBAR->
-   <header>
+   <!-NAVBAR ÜST->
+    <div class="container" >
+	<header>
+	
+   <div class="header-top">
+    <div class="slogan hidden-xs"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSE Car Hire  | </font><font style="vertical-align: inherit;">44 44 123</font></font></div>
+    
+		
+	    <div class="uye-islemleri">
+<a style="font-size: 16px;" href="login.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Login</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - </font></font>
+<a style="font-size: 16px;" href="signup.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sign Up</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> </font></font>
+
+		    </div>
+			
+</div>
+   <!-NAVBAR ALT->
+  
    
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
    <div class="container">
-  <a class="navbar-brand" href="#">SHC</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+   <div class="logo"><a href="index.html"> <img src="image/logo.png" width="250" height="40" alt="Enterprise Rent A Car"></a></div>
+  
+  <button class="navbar-toggler" type="button" style ="background:white; " data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+   
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#about">ABOUT US</a>
+        <a class="nav-link" href="cars.html">CARS</a>
       </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="#gallery">GALLERY</a>
-      </li>
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          HIRE
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="rental-agreement.html">Rental agreement</a>
+          <a class="dropdown-item" href="additional-services.html">Additional services</a>
+          
+          <a class="dropdown-item" href="rental-abroud.html">Rental abroud</a>
+        </div>
 		  <li class="nav-item">
-        <a class="nav-link" href="#contact">CONTACT</a>
+        <a class="nav-link" href="contact.html">CONTACT</a>
       </li>
        
 		</div>
@@ -43,8 +68,12 @@
 </nav>
 </header>
     
+	
+	
+	<div class="container" style="border:2px solid #00204B">
 	<!-SECTİON 1 SLİDER->
-   <section id="slider">
+   <section id="slider" >
+   
    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -53,17 +82,17 @@
   </ol>
   <div class="carousel-inner">
   <div class="carousel-caption">
-    <h5>Second hand trust;SHC!</h5>
-    <p>With the SHC you can buy and sell vehicles in a comfortable <br>environment without fatigue</p>
+    
   </div>
+  
     <div class="carousel-item active">
-      <img class="d-block w-100" src="image/slider1.png" alt="First slide">
+      <img class="d-block w-100" src="image/slider1.png" alt="First slide" style="width:100%">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="image/slider1.png" alt="Second slide">
+      <img class="d-block w-100" src="image/slider2.png" alt="Second slide" style="width:100%">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="image/slider1.png" alt="Third slide">
+      <img class="d-block w-100" src="image/slider3.png" alt="Third slide" style="width:100%">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -76,7 +105,10 @@
   </a>
 </div>
 
+</section>
+
    <!-SECTİON2->
+   
    <section id="content1">
       <div class="container">
 	     <div class="row">
@@ -109,19 +141,155 @@
 			      
           </section>
 		  
+		  
 		  <!-JUMBOTRON->
+		 
 		  <div class="jumbotron jumbotron-fluid">
   <div class="container">
+  
    <p class="lead">Choose your own vehicle safely from thousands of vehicles!</p>
-	<h1 class="display-4">SHOWCASE CARS</h1> 
+	<h1 class="display-4">OUR EXCLUSİVE BRANDS</h1> 
 	<img src="image/jumbotron_image.png" class="img-fluid"/>
   </div>
 </div>
+		 
+	
+      <!SECTİON 3>
+		<section id="content2">
+      <div class="container">
+	     <div class="row">
+	        <div class="col-sm-3">
+			  <div class="colon2">
+			<img src="image/Vw.ico" class="img-fluid"/>
+			 
+				   </div>
+			       </div>
+				   
+				    <div class="col-sm-3">
+			  <div class="colon2">
+			<img src="image/audi.ico" class="img-fluid"/>
+			  
+				   </div>
+			       </div>
+				   
+				    <div class="col-sm-3">
+			  <div class="colon2">
+			<img src="image/mercedes.ico" class="img-fluid"/>
+			  
+				   </div>
+			       </div>
+				   
+				     <div class="col-sm-3">
+			  <div class="colon2">
+			<img src="image/bmw.ico" class="img-fluid"/>
+			
+	          
+				   </div>
+			       </div>
+			     </div>
+				 </div>
+			      
+          </section>
 		  
-		  <!-SECTİON3->
-		  <section id="formfield">
-		  
-		  </section>
- 
+		  <!FOOTER TOP>
+		  <div class="footer-top">
+	<div class="row">
+    	<div class="col-md-3 p-right-0">
+        	<div class="item">
+            	
+                    <div class="icon"><img src="image/footer1.png" class="img-fluid"/></div>
+                    <div class="icerik">
+                        <div class="baslik">JOIN TO E-NEWSLETTER</div>
+                        <div class="aciklama">Be informed before the current campaign and announcements.</div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-3 p-right-0">
+        	<div class="item">
+            	
+                    <div class="icon"><img src="image/footer2.png" class="img-fluid"/></div>
+                    <div class="icerik">
+                        <div class="baslik">RENTAL OFFICES</div>
+                        <div class="aciklama">You can easily find our nearest offices.</div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-3 p-right-0">
+        	<div class="item">
+            	
+                    <div class="icon"><img src="image/footer3.png" class="img-fluid"/></div>
+                    <div class="icerik">
+                        <div class="baslik">CUSTOMER SERVICE</div>
+                        <div class="aciklama">You can send us your suggestions and complaints about your leases.</div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-3 p-right-0">
+        	<div class="item">
+            	
+                    <div class="icon"><img src="image/footer4.png" class="img-fluid"/></div>
+                    <div class="icerik">
+                        <div class="baslik">JOIN TO CSE</div>
+                        <div class="aciklama">Take advantage of Franchise opportunities and join the Enterprise family.</div>
+                    </div>
+                    <div class="clear"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!FOOTER>
+ <footer class="section footer-classic context-dark bg-image" style="background: #00204B;">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-4 col-xl-5">
+              <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
+                <p>Secure and fast car hire.</p>
+                <!-- Rights-->
+                <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>CSE</span><span>. </span><span>All Rights Reserved.</span></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h5>Contacts</h5>
+              <dl class="contact-list">
+                <dt>Address:</dt>
+                <dd>Akdeniz University</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>email:</dt>
+                <dd><a href="mailto:#">cse_akdeniz@gmail.com</a></dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>phones:</dt>
+                <dd><a href="tel:#">+91 7568543012</a> <span>or</span> <a href="tel:#">+91 9571195353</a>
+                </dd>
+              </dl>
+            </div>
+            <div class="col-md-4 col-xl-3">
+              <h5>Links</h5>
+              <ul class="nav-list">
+                <li><a href="index.html">home</a></li>
+                <li><a href="cars.html">cars</a></li>
+               
+                <li><a href="contact.html">contact</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters social-container">
+          <div class="col"><a class="social-inner" href="https://www.facebook.com" target="_blank"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+          <div class="col"><a class="social-inner" href="https://www.instagram.com"target="_blank"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+          <div class="col"><a class="social-inner" href="https://www.twitter.com"target="_blank"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+          <div class="col"><a class="social-inner" href="https://www.google.com"target="_blank"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+        </div>
+      </footer></div></div>
   </body>
 </html>
