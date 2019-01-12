@@ -195,11 +195,19 @@ max-height:230px;
 	margin:-15px auto;
 padding:1px 0;
 max-width:100px;
-display:block;
-	
-	
+display:block;	
 }
-	
+/* top-image (üste resimler)*/
+
+.sub-images {
+    margin-bottom: 30px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height:auto;
+}	
 	
 .context-dark, .bg-gray-dark, .bg-primary {
     color:#FFB41D;
@@ -297,3 +305,6 @@ ul, ol {
 .clear {
     clear: both;
 }
+
+/*rental agreement*/
+
